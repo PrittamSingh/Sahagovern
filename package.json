@@ -1,0 +1,23 @@
+{
+  "name": "sahagovern",
+  "version": "1.0.0",
+  "description": "**SahaGovern** is a civic engagement and community platform that bridges the gap between **citizens** and **local authorities**.  \r It enables residents to **report local issues** (potholes, garbage, streetlights, etc.) with **photos, videos, voice notes, and location**.  \r Reports appear on a **live map** and **community feed**, where people can **upvote, comment, and track progress**.",
+  "homepage": "https://github.com/jainAmishhh/sahagovern#readme",
+  "bugs": {
+    "url": "https://github.com/jainAmishhh/sahagovern/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jainAmishhh/sahagovern.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run dev --prefix Backend\" \"npm start --prefix User-Dashboard-Frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
